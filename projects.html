@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+
+
+    .card, .test{
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        /* padding: 14px 80px 18px 36px; */
+        cursor: pointer;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
+    .card-img-overlay {
+        /* background: rgba(0, 0, 0, 0.5); */
+        color: yellow;
+        transition: all 0.3s ease;
+        opacity: 0.5;
+    }
+
+    .card:hover .card-img-overlay {
+        opacity: 1;
+        /* z-index: -1; makes the text completely disappear*/
+    }
+
+    
+
+</style>
+</head>
+<body>
+    <!-- Navbar Section starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="interests.html">Interest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Section ENDS -->
+
+      <!--Project Section START-->
+     <br>
+     <br>
+     <br>
+      <!-- 1st row-->
+  <div class="container pt-4">
+      <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+              <div class="card">
+              <img src="groupproject.png" alt="Simple website I created" class="card-img-top">
+              <div class="card-img-overlay d-flex ">
+                  <h2 class="card-title text-center text-white">Project 1</h2>
+              </div>
+              <p>This group assignment provided me with hands-on experience applying Agile methodologies while creating a basic e-commerce site using HTML and CSS. It consisted of a 3-day project and we presented our website showcasing our design, skills, and teamwork.  </p>
+            </div>
+          </div>
+          
+
+          
+          <div class="col-lg-6 col-md-12 mb-4">
+              <div class="card">
+              <img src="Curltalkwebsite.png" alt="My own curl product website" class="card-img-top">
+              <div class="card-img-overlay d-flex ">
+                <h2 class="card-title text-center text-white">Project 2</h2>
+            </div> 
+            <p>In this Project, I applied the basic concepts of the Bootstrap CSS framework to create a simple, responsive website. This was a great help in understanding the core features of Bootstrap, such as the grid system, components, and utilities.</p>
+              </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="card">
+            <img src="landingpage.png" alt="A boutique website I created" class="card-img-top">
+            <div class="card-img-overlay d-flex ">
+                <h2 class="card-title text-center text-white">Project 3</h2>
+            </div>
+            <p>In this project, I was able to create my first website using HTML and CSS as well, creating a website that looks like my own online boutique. I also added reviews to make it as realistic as possible.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 mb-4">
+          <div class="card">
+          <img src="navbar.png" alt="One of my first projects using css" class="card-img-top">
+          <div class="card-img-overlay d-flex ">
+              <h2 class="card-title text-center text-white">Project 4</h2>
+          </div>
+          <p>In this Project, I create this fake navigation bar as it appears here using only HTML elements and CSS properties. It was my first time, so I was very proud of my navbar especially since the words color change as you hover.</p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- Project Section END-->
+
+<!-- Footer Start-->
+<footer id=footer class="text-center text-lg-start bg-white text-muted">
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Leyla Musse
+            </h6>
+            
+          </div>
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact Me</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> Minneapolis, MN , US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              Lmusse4@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 952 846 7665</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
